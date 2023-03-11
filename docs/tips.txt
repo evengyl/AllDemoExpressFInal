@@ -1,0 +1,2 @@
+Pour générer la clef secret du JWT : 
+require('crypto').randomBytes(64).toString('hex')
